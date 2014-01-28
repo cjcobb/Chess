@@ -9,7 +9,6 @@ public class AI {
 	
 	public static void AImove(ChessPiece[][] board,int depth) {
 		root_depth = depth;
-		System.out.println(evaluate(board));
 		max(depth, Integer.MIN_VALUE, Integer.MAX_VALUE, board);
 	}
 	
